@@ -166,7 +166,7 @@ def search(init, goal, position):
     path.reverse()
 
     robot_coordinate = []
-
+ 
     #change grid coordinate to real coordinate
     for i in range(len(path)):
         x = path[i][0]
