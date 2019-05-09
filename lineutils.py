@@ -61,7 +61,7 @@ def point_inside_polygon(plan, (x,y,theta)):
 
 def measurements(plan, (x, y, theta)):
     mes = [0]*12
-    
+     
     coeff_0 = line_equation_ap(theta, (x,y))
     coeff_30 = line_equation_ap(theta+(3*pi)/18, (x,y))
     coeff_60 = line_equation_ap(theta+(6*pi)/18, (x,y))
